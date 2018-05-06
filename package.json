@@ -1,0 +1,25 @@
+{
+  "name": "kenings-automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.1.1",
+    "npm": "^6.0.0",
+    "selenium-standalone": "^6.14.0",
+    "selenium-webdriver": "^4.0.0-alpha.1",
+    "wdio-mocha-framework": "^0.5.13"
+  },
+  "devDependencies": {
+    "chromedriver": "^2.38.3",
+    "geckodriver": "^1.11.0",
+    "wdio-selenium-standalone-service": "0.0.10",
+    "webdriverio": "^4.12.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC"
+}
